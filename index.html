@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>A World of Our Own</title>
+</head>
+<body>
+    <div class="bg">
+        <div class="content">
+            <div id="landing-page">
+                <h1>Наш собственный мир</h1>
+                <p>Каждая история начинается с одного шага. Давай построим одну из них вместе.</p> 
+                <p>每個故事都從一步開始。讓我們一起創造一個故事。</p>
+                <button class="btn" onclick="startStory()">Начать писать</button>
+            </div>
+
+            <div id="story-section">
+                <h2>Выбор истории</h2>
+                <div id="prompt-choices"></div>
+                <div id="path-choices"></div>
+                <div id="story-content"></div>
+            </div>
+
+            <div id="reflection-section">
+                <h2>Минута осмысления</h2>
+                <div id="reflection-content"></div>
+            </div>
+        </div>
+    </div>
+    <audio id="bgMusic" loop>
+        <source src="./audio/backgroundmusic.mp3" type="audio/mpeg">
+    </audio>
+</body>
+<script src="./script.js"></script>
+</html>
